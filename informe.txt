@@ -1,0 +1,14 @@
+Informe por:
+		Johnny Donoso A.
+
+Pude solo implementar método FIFO y método Random por el tiempo,
+perdón por eso.
+
+Respecto al comportamiento de estos métodos de páginación, el mejor
+(ocupando 100 pages y 10 frames) siempre fue el FIFO, ya que requería menos
+lecturas y escrituras en el disco, por lo cual, al ejecutar el 
+programa completo sea cual sea(focus, sort,scan), siempre este salía como
+ganador en ese aspecto, por lo que este sería el método que nos serviría
+por ejemplo en un ssd, ya que hace menos uso del disco y cumple
+correctamente su función de paginación.
+
